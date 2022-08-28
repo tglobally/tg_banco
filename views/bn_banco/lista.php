@@ -40,7 +40,6 @@ $url_icons = (new views())->url_icons;
                     <th scope="col">Id</th>
                     <th scope="col">Codigo</th>
                     <th scope="col">Descripción</th>
-                    <th scope="col">Tipo banco</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -58,7 +57,6 @@ $url_icons = (new views())->url_icons;
                     <th><?php echo $registro->bn_banco_id; ?></th>
                     <th><?php echo $registro->bn_banco_codigo; ?></th>
                     <th><?php echo $registro->bn_banco_descripcion; ?></th>
-                    <th><?php echo $registro->bn_tipo_banco_descripcion; ?></th>
                 </tr>
                 <?php } ?>
 
