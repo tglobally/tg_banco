@@ -1,1 +1,1 @@
-<span class="texto-menu-lateral">Alta empresa</span>
+<span class="texto-menu-lateral">Alta banco</span>
