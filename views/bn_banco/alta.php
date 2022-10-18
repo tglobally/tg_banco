@@ -9,10 +9,8 @@
             <form method="post" action="./index.php?seccion=bn_banco&accion=alta_bd&session_id=<?php echo $controlador->session_id; ?>" class="form-additional">
 
                 <?php echo $controlador->inputs->codigo; ?>
-                <?php echo $controlador->inputs->codigo_bis; ?>
+                <?php echo $controlador->inputs->select->bn_tipo_banco_id; ?>
                 <?php echo $controlador->inputs->descripcion; ?>
-                <?php echo $controlador->inputs->descripcion_select; ?>
-                <?php echo $controlador->inputs->alias; ?>
 
                 <div class="buttons col-md-12">
                     <div class="col-md-6">
