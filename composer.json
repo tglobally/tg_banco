@@ -17,6 +17,7 @@
             "models\\": "orm",
             "tests\\": "tests/",
             "links\\": "links/",
+            "templates\\": "templates/",
             "html\\": "templates/directivas/"
 
         }
