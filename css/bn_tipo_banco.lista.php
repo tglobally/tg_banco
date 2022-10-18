@@ -4,8 +4,8 @@ use config\views;
 
 $ruta_template_base = (new views())->ruta_template_base;
 include $ruta_template_base.'assets/css/_base_css.php';
-
 ?>
+
 <style>
     .buttons {
         margin-bottom: 2.25rem;
@@ -73,9 +73,3 @@ include $ruta_template_base.'assets/css/_base_css.php';
         border: 1px solid #0B0595
     }
 </style>
-
-
-
-
-
-
