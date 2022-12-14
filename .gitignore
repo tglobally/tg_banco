@@ -45,6 +45,8 @@ Thumbs.db
 *.mov
 *.wmv
 
+archivos
+archivos/tmp
 composer.lock
 config/database.php
 config/generales.php
