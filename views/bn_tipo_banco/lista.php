@@ -1,4 +1,4 @@
-<?php /** @var controllers\controlador_bn_banco $controlador */ ?>
+<?php /** @var \tglobally\tg_banco\controllers\controlador_bn_tipo_banco $controlador */ ?>
 <?php
 
 use config\views;

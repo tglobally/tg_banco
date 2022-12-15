@@ -1,1 +1,1 @@
-<span class="texto-menu-lateral">Tipos Bancos</span>
+<span class="texto-menu-lateral">Modifca Tipo Banco</span>
