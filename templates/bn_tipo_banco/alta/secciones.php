@@ -3,7 +3,7 @@
     <div class="col-md-12 int_secciones ">
         <div class="col-md-8">
             <h3>Alta Tipos de Banco</h3>
-            <?php include "templates/bn_tipo_banco/_base/buttons/1.azul.php"; ?>
+            <?php include "templates/bn_tipo_banco/_base/buttons/1.azul.alta.php"; ?>
         </div>
 
     </div>

@@ -1,1 +1,1 @@
-<span class="texto-menu-lateral">Tipos banco</span>
+<span class="texto-menu-lateral">Alta Tipos banco</span>
