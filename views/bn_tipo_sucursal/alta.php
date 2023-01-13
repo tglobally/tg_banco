@@ -1,6 +1,7 @@
 <?php /** @var tglobally\tg_banco\controllers\controlador_bn_tipo_sucursal $controlador */ ?>
 
-<?php include 'templates/bn_tipo_sucursal/alta/secciones.php'; ?>
+<?php (new \tglobally\template_tg\template())->sidebar($controlador); ?>
+
 <div class="col-md-9 formulario">
     <div class="col-lg-12">
 

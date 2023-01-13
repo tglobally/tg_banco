@@ -1,5 +1,7 @@
-<?php /** @var \tglobally\tg_banco\controllers\controlador_bn_tipo_banco $controlador */ ?>
-<?php include 'templates/bn_tipo_banco/modifica/secciones.php'; ?>
+<?php /** @var tglobally\tg_banco\controllers\controlador_bn_tipo_banco $controlador */ ?>
+
+<?php (new \tglobally\template_tg\template())->sidebar($controlador); ?>
+
 <div class="col-md-9 formulario">
     <div class="col-lg-12">
 
