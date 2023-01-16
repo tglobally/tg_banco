@@ -35,6 +35,11 @@ class controlador_bn_tipo_sucursal extends \gamboamartin\banco\controllers\contr
         $this->sidebar['modifica']['menu'] = array(
             $this->menu_item(menu_item_titulo: "Modifica", link: $this->link_alta,menu_lateral_active: true));
 
+        $this->sidebar['sucursales']['titulo'] = "Tipo Sucursal";
+        $this->sidebar['sucursales']['stepper_active'] = true;
+        $this->sidebar['sucursales']['menu'] = array(
+            $this->menu_item(menu_item_titulo: "Sucursal", link: $this->link_alta,menu_lateral_active: true));
+
 
     }
 
