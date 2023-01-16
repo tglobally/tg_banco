@@ -29,7 +29,7 @@
         <div class="lista">
             <div class="card">
                 <div class="card-header">
-                    <span class="text-header">Bancos</span>
+                    <span class="text-header">Sucursales</span>
                 </div>
                 <div class="card-body">
                     <div class="cont_tabla_sucursal  col-md-12">

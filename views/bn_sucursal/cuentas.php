@@ -18,7 +18,7 @@
 
                 <div class="buttons col-md-12">
                     <div class="col-md-6">
-                        <button type="submit" class="btn btn-info btn-guarda col-md-12 " name="btn_action_next" value="modifica">Guarda</button>
+                        <button type="submit" class="btn btn-info btn-guarda col-md-12 " name="btn_action_next" value="cuentas">Guarda</button>
                     </div>
                     <div class="col-md-6 ">
                         <a href="<?php echo $controlador->link_lista; ?>"  class="btn btn-info btn-guarda col-md-12 ">Lista</a>
@@ -30,7 +30,7 @@
         <div class="lista">
             <div class="card">
                 <div class="card-header">
-                    <span class="text-header">Sucursales</span>
+                    <span class="text-header">Cuentas</span>
                 </div>
                 <div class="card-body">
                     <div class="cont_tabla_sucursal  col-md-12">

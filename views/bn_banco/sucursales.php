@@ -17,7 +17,7 @@
 
                 <div class="buttons col-md-12">
                     <div class="col-md-6">
-                        <button type="submit" class="btn btn-info btn-guarda col-md-12 " name="btn_action_next" value="modifica">Guarda</button>
+                        <button type="submit" class="btn btn-info btn-guarda col-md-12 " name="btn_action_next" value="sucursales">sucursales</button>
                     </div>
                     <div class="col-md-6 ">
                         <a href="<?php echo $controlador->link_lista; ?>"  class="btn btn-info btn-guarda col-md-12 ">Lista</a>
