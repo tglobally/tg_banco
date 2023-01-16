@@ -24,6 +24,7 @@ class controlador_adm_session extends \gamboamartin\controllers\controlador_adm_
     public string $link_lista_bn_sucursal = '';
     public string $link_lista_bn_tipo_cuenta = '';
     public string $link_lista_bn_cuenta = '';
+    public string $link_lista_bn_empleado = '';
 
     /**
      * Funcion de controlador donde se ejecutaran siempre que haya un acceso denegado
@@ -82,6 +83,9 @@ class controlador_adm_session extends \gamboamartin\controllers\controlador_adm_
 
         $hd = "index.php?seccion=bn_cuenta&accion=lista&session_id=$this->session_id";
         $this->link_lista_bn_cuenta = $hd;
+
+        $hd = "index.php?seccion=bn_empleado&accion=lista&session_id=$this->session_id";
+        $this->link_lista_bn_empleado = $hd;
 
         $this->include_menu = (new generales())->path_base;
         $this->include_menu .= 'templates/inicio.php';

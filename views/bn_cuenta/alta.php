@@ -10,6 +10,7 @@
         <div class="  form-main" id="form">
             <form method="post" action="<?php echo $controlador->link_alta_bd;?>" class="form-additional">
 
+                <?php echo $controlador->inputs->descripcion; ?>
                 <?php echo $controlador->inputs->bn_tipo_cuenta_id; ?>
                 <?php echo $controlador->inputs->org_sucursal_id; ?>
                 <?php echo $controlador->inputs->bn_empleado_id; ?>
