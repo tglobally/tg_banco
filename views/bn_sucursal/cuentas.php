@@ -9,13 +9,13 @@
         <h3 class="text-center titulo-form">Hola, <?php echo $controlador->datos_session_usuario['adm_usuario_user']; ?> </h3>
 
         <div class="  form-main" id="form">
-            <form method="post" action="<?php echo $controlador->link_bn_sucursal_alta_bd;?>" class="form-additional">
+            <form method="post" action="<?php echo $controlador->link_bn_cuenta_alta_bd;?>" class="form-additional">
 
                 <?php echo $controlador->inputs->bn_cuenta_descripcion; ?>
+                <?php echo $controlador->inputs->select->bn_sucursal_id; ?>
                 <?php echo $controlador->inputs->select->bn_tipo_cuenta_id; ?>
                 <?php echo $controlador->inputs->select->org_sucursal_id; ?>
                 <?php echo $controlador->inputs->select->bn_empleado_id; ?>
-                <?php echo $controlador->inputs->select->bn_sucursal_id; ?>
 
                 <div class="buttons col-md-12">
                     <div class="col-md-6">
